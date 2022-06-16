@@ -10,6 +10,12 @@ public class Ch7Draw {
         }
         System.out.println();
     }
+    
+    public static void drawBox(int length, int height) {
+        for (int i = 1; i <= height; i++) {
+            drawBar(length);
+        }
+    }
 
     public static void main(String[] args) {
         Scanner computerKeyboardInput = new Scanner(System.in);
@@ -19,6 +25,10 @@ public class Ch7Draw {
         for (int i = 1; i <= 6; i++) {
             drawBar(i);
         }
+        System.out.println();
+        
+        //draw a box
+        drawBox(5, 4);
         System.out.println();
     }
 }
