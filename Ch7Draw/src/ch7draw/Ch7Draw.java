@@ -33,7 +33,6 @@ public class Ch7Draw {
     public static void main(String[] args) {
         Scanner computerKeyboardInput = new Scanner(System.in);
         System.out.println("Drawing Project by Kevin Bell\n");
-
         int width, height;
         String yesOrNo, characterPreference, keepPlaying;
         System.out.print("Do you want me to draw a box? (Y or N) ");
