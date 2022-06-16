@@ -1,4 +1,4 @@
-# drawingShapes
+# drawing Shapes
 This project does not require a class, because we aren’t going to instantiate any objects. It uses class methods, specifically the main method plus a few more. Create a project named “Ch7Draw”. You will add class methods above the main method. Remember that class methods need the keyword “static” in the heading.  
 
 To draw a bar of asterisks across a line, we will use a method named “drawBar”. It needs to know how many times an asterisk should appear on the line, so it needs an integer parameter. In your project, create a class method named “drawBar”.
